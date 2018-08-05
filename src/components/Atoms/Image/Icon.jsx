@@ -38,7 +38,7 @@ export default Icon;
   various icons depending on name.
 
 Sample usages are as follows:
-````
+```
   <Icon name={'cross'} width={"10"} height={"10"} />
   <Icon name={'check'} width={"10"} height={"10"} />
 ```

@@ -13,15 +13,17 @@ Heading.propTypes = {
 export default Heading;
 
 /*
-Heading is a
+`Heading` is a
   stateless function component
   receiving `size, text` props
-rendering a conditionally styled span
+`rendering` a conditionally styled span
   indicating various sizes
 
 Sample usages are as follows:
+```
   <Heading size={'h1'} text={"Uitbetalingen"} />
   <Heading size={'h2'} text={"Uitbetalingen"} />
   <Heading size={'h3'} text={"Uitbetalingen"} />
   <Heading size={'h4'} text={"Uitbetalingen"} />
+```
 */

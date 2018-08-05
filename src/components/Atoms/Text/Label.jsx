@@ -33,7 +33,7 @@ export default Label;
   a styled span
 
 Sample usage is as follows:
-````
+```
   <Label text={"E-mailadressen"} />
 ```
 */

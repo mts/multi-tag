@@ -45,7 +45,7 @@ export default Tag;
   `onMouseDown` event
 
 Sample usage is as follows:
-````
+```
   <Tag id={emails.items[0].id} text={emails.items[0].text} />
-````
+```
 */

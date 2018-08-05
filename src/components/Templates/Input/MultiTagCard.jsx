@@ -28,12 +28,12 @@ export default MultiTagCard;
   a `MultiTag` component
 
 Sample usage is as follows:
-````
+```
   <MultiTagCard
     intro={intro}
     mails={emails}
     telephones={telephones}
   />
-````
+```
 */
 

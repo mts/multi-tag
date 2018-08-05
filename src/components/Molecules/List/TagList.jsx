@@ -138,8 +138,8 @@ export default TagList;
   `onChange`, `onKeyDown` event of `Input` component
 
 Sample usage is as follows:
-````
+```
   <TagList items={emails.items} />
-````
+```
 */
 

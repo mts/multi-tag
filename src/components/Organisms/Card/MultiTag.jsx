@@ -69,12 +69,12 @@ export default MultiTag;
   `Heading`, `Label` and `Input` components
 
 Sample usage is as follows:
-````
+```
   <MultiTag
     intro={intro}
     mails={emails}
     telephones={telephones}
   />
-````
+```
 */
 

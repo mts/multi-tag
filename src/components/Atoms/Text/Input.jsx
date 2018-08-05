@@ -67,7 +67,7 @@ export default Input;
   `onKeyDown` and `onChange` events
 
 Sample usage is as follows:
-````
+```
   <Input />
-````
+```
 */
