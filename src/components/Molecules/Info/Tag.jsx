@@ -42,7 +42,7 @@ export default Tag;
 `rendering`
   an input
 `handling`
-  onMouseDown event
+  `onMouseDown` event
 
 Sample usage is as follows:
 ````

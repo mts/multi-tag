@@ -64,7 +64,7 @@ export default Input;
 `rendering`
   an input
 `handling`
-  onKeyDown and onChange events
+  `onKeyDown` and `onChange` events
 
 Sample usage is as follows:
 ````

@@ -19,3 +19,21 @@ MultiTagCard.propTypes = {
 };
 
 export default MultiTagCard;
+
+/*
+`MultiTagCard` is a
+  stateless function component
+  receiving `intro, mails, telephones` props
+`rendering`
+  a `MultiTag` component
+
+Sample usage is as follows:
+````
+  <MultiTagCard
+    intro={intro}
+    mails={emails}
+    telephones={telephones}
+  />
+````
+*/
+

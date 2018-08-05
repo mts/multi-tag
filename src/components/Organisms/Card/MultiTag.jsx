@@ -66,7 +66,7 @@ export default MultiTag;
   stateless function component
   receiving `intro, mails, telephones` props
 `rendering`
-  Heading, Label and Input components
+  `Heading`, `Label` and `Input` components
 
 Sample usage is as follows:
 ````

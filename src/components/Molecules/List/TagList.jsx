@@ -132,10 +132,10 @@ export default TagList;
   stateful class component
   receiving an `array` of `id and text` props
 `rendering`
-  a list of Tag components and an Input component
+  a list of `Tag` components and an `Input` component
 `handling`
-  onMouseDown event of Tag component
-  onChange, onKeyDown event of Input component
+  `onMouseDown` event of `Tag` component
+  `onChange`, `onKeyDown` event of `Input` component
 
 Sample usage is as follows:
 ````

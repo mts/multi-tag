@@ -15,7 +15,7 @@ export default Heading;
 /*
 Heading is a
   stateless function component
-  receiving size, text props
+  receiving `size, text` props
 rendering a conditionally styled span
   indicating various sizes
 
