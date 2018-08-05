@@ -4,3 +4,6 @@ import './heading.stories';
 import './label.stories';
 import './info.stories';
 import './input.stories';
+
+// Molecules
+import './tag.stories';
