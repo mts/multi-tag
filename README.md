@@ -139,7 +139,7 @@ as `atoms`, `molecules`, `organisms` and `templates` taking into account the com
   various icons depending on name.
 
 Sample usages are as follows:
-```
+```javascript
   <Icon name={'cross'} width={"10"} height={"10"} />
   <Icon name={'check'} width={"10"} height={"10"} />
 ```
@@ -152,7 +152,7 @@ Sample usages are as follows:
   a styled span
 
 Sample usage is as follows:
-```
+```javascript
   <Info body={"Bij elke uitbetaling van je tegoeden zul je een notificatie ontvangen"} />
 ```
 
@@ -165,7 +165,7 @@ Sample usage is as follows:
   `onKeyDown` and `onChange` events
 
 Sample usage is as follows:
-```
+```javascript
   <Input />
 ```
 
@@ -176,7 +176,7 @@ Sample usage is as follows:
   a styled span
 
 Sample usage is as follows:
-```
+```javascript
   <Label text={"E-mailadressen"} />
 ```
 
@@ -188,7 +188,7 @@ Sample usage is as follows:
   indicating various sizes
 
 Sample usages are as follows:
-```
+```javascript
   <Heading size={'h1'} text={"Uitbetalingen"} />
   <Heading size={'h2'} text={"Uitbetalingen"} />
   <Heading size={'h3'} text={"Uitbetalingen"} />
@@ -207,7 +207,7 @@ Sample usages are as follows:
   `onMouseDown` event
 
 Sample usage is as follows:
-```
+```javascript
   <Tag id={emails.items[0].id} text={emails.items[0].text} />
 ```
 
@@ -222,7 +222,7 @@ Sample usage is as follows:
   `onChange`, `onKeyDown` event of `Input` component
 
 Sample usage is as follows:
-```
+```javascript
   <TagList items={emails.items} />
 ```
 
@@ -236,7 +236,7 @@ Sample usage is as follows:
   `Heading`, `Label` and `Input` components
 
 Sample usage is as follows:
-```
+```javascript
   <MultiTag
     intro={intro}
     mails={emails}
@@ -254,7 +254,7 @@ Sample usage is as follows:
   a `MultiTag` component
 
 Sample usage is as follows:
-```
+```javascript
   <MultiTagCard
     intro={intro}
     mails={emails}
