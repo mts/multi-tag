@@ -1,6 +1,6 @@
 import './Label.scss';
 import React from 'react';
-import PropTypes from 'prop-types';
+import {string, oneOf} from "prop-types";
 import classNames from 'classnames';
 
 const Label = ({ size, text }) => (
@@ -19,8 +19,8 @@ Label.defaultProps = {
 };
 
 Label.propTypes = {
-    text: PropTypes.string.isRequired,
-    size: PropTypes.oneOf(['small', 'medium'])
+    text: string.isRequired,
+    size: oneOf(['small', 'medium'])
 };
 
 export default Label;
