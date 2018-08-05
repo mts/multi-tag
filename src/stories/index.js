@@ -11,3 +11,6 @@ import './tagList.stories';
 
 // Molecules
 import './multiTag.stories';
+
+// Organisms
+import './multiTagCard.stories';
