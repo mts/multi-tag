@@ -60,3 +60,21 @@ MultiTag.propTypes = {
 };
 
 export default MultiTag;
+
+/*
+`MultiTag` is a
+  stateless function component
+  receiving `intro, mails, telephones` props
+`rendering`
+  Heading, Label and Input components
+
+Sample usage is as follows:
+````
+  <MultiTag
+    intro={intro}
+    mails={emails}
+    telephones={telephones}
+  />
+````
+*/
+
