@@ -1,3 +1,5 @@
+// sample data for the multi tag app
+
 export const telephones = {
     "title": "Telefoonnummers",
     "description": "€ 0.99 per sms-bericht. Beperkt tot 3 telefoonnummers."
