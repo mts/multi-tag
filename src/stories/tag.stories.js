@@ -1,3 +1,5 @@
+// Tag stories for Storybook
+
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import Tag from '../components/Molecules/Info/Tag';

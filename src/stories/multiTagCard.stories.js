@@ -1,3 +1,5 @@
+// MultiTagCard stories for Storybook
+
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import MultiTagCard from '../components/Templates/Input/MultiTagCard';

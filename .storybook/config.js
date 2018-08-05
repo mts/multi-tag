@@ -1,3 +1,5 @@
+// Picks up all Storybook stories under ../src/stories
+
 import { configure } from '@kadira/storybook';
 
 function loadStories() {

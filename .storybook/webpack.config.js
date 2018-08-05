@@ -1,3 +1,6 @@
+// Gives Storybook its own webpack configuration
+// with appropriate loaders for different fle types
+
 const path = require('path');
 
 module.exports = {

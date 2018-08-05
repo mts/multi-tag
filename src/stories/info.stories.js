@@ -1,3 +1,5 @@
+// Info stories for Storybook
+
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import Info from '../components/Atoms/Text/Info';

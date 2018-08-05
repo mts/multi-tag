@@ -1,3 +1,5 @@
+// MultiTag stories for Storybook
+
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import MultiTag from '../components/Organisms/Card/MultiTag';

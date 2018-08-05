@@ -1,3 +1,5 @@
+// Storybook config (.storybook/config.js) entry to pick up stories
+
 // Atoms
 import './icon.stories';
 import './heading.stories';
