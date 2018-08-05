@@ -1,0 +1,20 @@
+@import '../../../theming/config';
+
+.label {
+    display: inline-block;
+    padding: 6px 2em;
+    text-align: center;
+    font-family: $font-family-primary;
+    color: lighten($color-text-title, 50);
+    background-color: $color-fill-white;
+    white-space: nowrap;
+    padding: 0;
+
+    &--small {
+        font-size: $font-size-small;
+    }
+
+    &--medium {
+        font-size: $font-size-medium;
+    }
+}
