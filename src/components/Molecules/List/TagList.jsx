@@ -38,7 +38,7 @@ class TagList extends Component {
       });
   }
 
-  onKeyPress = (e) => {
+  onKeyDown = (e) => {
     const { items, newItemText } = this.state;
 
     if (newItemText.indexOf(',') >= 0 && (e.keyCode === 188 || e.keyCode === 9)) {
@@ -74,7 +74,7 @@ class TagList extends Component {
     }
   }
 
-  onClick = (id) => {
+  onMouseDown = (id) => {
       const { items } = this.state;
 
       let newItems = items.filter((item) => {
@@ -100,13 +100,13 @@ class TagList extends Component {
             key={index}
             id={item.id}
             text={item.text}
-            onMouseDown={this.onClick}
+            onMouseDown={this.onMouseDown}
           />
         )) : null}
         <div className="tag-list__new-tag">
           <Input
             onChange={this.onChange}
-            onKeyDown={this.onKeyPress}
+            onKeyDown={this.onKeyDown}
             borderless
             val={newItemText}
           />
@@ -126,3 +126,20 @@ TagList.propTypes = {
 };
 
 export default TagList;
+
+/*
+`TagList` is a
+  stateful class component
+  receiving an `array` of `id and text` props
+`rendering`
+  a list of Tag components and an Input component
+`handling`
+  onMouseDown event of Tag component
+  onChange, onKeyDown event of Input component
+
+Sample usage is as follows:
+````
+  <TagList items={emails.items} />
+````
+*/
+
