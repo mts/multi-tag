@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import Tag from '../components/Molecules/Info/Tag';
-import {emails} from '../data/tagData';
+import {emails} from '../data/multiTagData';
 
 storiesOf('Tag', module)
   .add('default', () => (

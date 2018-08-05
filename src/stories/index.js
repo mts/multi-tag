@@ -8,3 +8,6 @@ import './input.stories';
 // Molecules
 import './tag.stories';
 import './tagList.stories';
+
+// Molecules
+import './multiTag.stories';

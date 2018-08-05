@@ -1,3 +1,13 @@
+export const telephones = {
+    "title": "Telefoonnummers",
+    "description": "€ 0.99 per sms-bericht. Beperkt tot 3 telefoonnummers."
+};
+
+export const intro = {
+    "title": "Uitbetalingen",
+    "description": "Bij elke uitbetaling van je tegoeden zul je een notificatie ontvangen."
+};
+
 export const emails = {
     "title": "E-mailadressen",
     "items":[
