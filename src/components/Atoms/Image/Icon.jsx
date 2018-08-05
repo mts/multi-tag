@@ -29,3 +29,15 @@ Icon.propTypes = {
 };
 
 export default Icon;
+
+/*
+`Icon` is a
+  stateless function component
+  receiving `name, width, height, fill, className` props
+rendering
+  various icons depending on name.
+
+Sample usages are as follows:
+  <Icon name={'cross'} width={"10"} height={"10"} />
+  <Icon name={'check'} width={"10"} height={"10"} />
+*/
