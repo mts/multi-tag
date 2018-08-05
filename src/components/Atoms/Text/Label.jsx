@@ -24,3 +24,16 @@ Label.propTypes = {
 };
 
 export default Label;
+
+/*
+`Label` is a
+  stateless function component
+  receiving `size, text` props
+`rendering`
+  a styled span
+
+Sample usage is as follows:
+````
+  <Label text={"E-mailadressen"} />
+```
+*/
