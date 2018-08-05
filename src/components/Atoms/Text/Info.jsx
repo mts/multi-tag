@@ -28,7 +28,7 @@ export default Info;
 `rendering`
   a styled span
 
-Sample usages are as follows:
+Sample usage is as follows:
 ````
   <Info body={"Bij elke uitbetaling van je tegoeden zul je een notificatie ontvangen"} />
 ````

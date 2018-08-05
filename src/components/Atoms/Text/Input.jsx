@@ -56,3 +56,16 @@ Input.PropTypes = {
 };
 
 export default Input;
+
+/*
+`Input` is a
+  stateful class component
+  receiving `borderless, onChange, onKeyDown` props
+`rendering`
+  an input and handling keyDown and keyChange events
+
+Sample usage is as follows:
+````
+  <Input />
+````
+*/
