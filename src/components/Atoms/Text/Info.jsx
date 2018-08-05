@@ -20,3 +20,16 @@ Info.propTypes = {
 };
 
 export default Info;
+
+/*
+`Info` is a
+  stateless function component
+  receiving `size, body` props
+`rendering`
+  a styled span
+
+Sample usages are as follows:
+````
+  <Info body={"Bij elke uitbetaling van je tegoeden zul je een notificatie ontvangen"} />
+````
+*/
