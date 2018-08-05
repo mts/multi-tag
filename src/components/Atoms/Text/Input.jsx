@@ -4,13 +4,6 @@ import {bool, func} from 'prop-types';
 import classNames from 'classnames';
 
 class Input extends Component {
-  constructor(props) {
-    super(props);
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleKeyDown = this.handleKeyDown.bind(this);
-  }
-
   handleChange = (onChange, e) => {
     onChange(e);
   }

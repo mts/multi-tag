@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
-import Tag from '../components/Molecules/Info/Tag';
+import TagList from '../components/Molecules/List/TagList';
 import {emails} from '../data/tagData';
 
-storiesOf('Tag', module)
+storiesOf('TagList', module)
   .add('default', () => (
-    <Tag id={emails.items[0].id} text={emails.items[0].text} />
+    <TagList items={emails.items} />
   ));

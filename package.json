@@ -1,6 +1,8 @@
 {
   "name": "multi-tag",
   "dependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.15.0",
     "classnames": "^2.2.5",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
