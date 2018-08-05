@@ -34,3 +34,18 @@ Tag.propTypes = {
 };
 
 export default Tag;
+
+/*
+`Tag` is a
+  stateless function component
+  receiving `onMouseDown, text, id` props
+`rendering`
+  an input
+`handling`
+  onMouseDown event
+
+Sample usage is as follows:
+````
+  <Tag id={emails.items[0].id} text={emails.items[0].text} />
+````
+*/

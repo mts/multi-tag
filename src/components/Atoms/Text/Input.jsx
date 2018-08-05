@@ -62,7 +62,9 @@ export default Input;
   stateful class component
   receiving `borderless, onChange, onKeyDown` props
 `rendering`
-  an input and handling keyDown and keyChange events
+  an input
+`handling`
+  onKeyDown and onChange events
 
 Sample usage is as follows:
 ````
