@@ -1,5 +1,9 @@
 # Multi Tag
 
+[![travis build](https://img.shields.io/travis/mts/multi-tag.svg?style=flat-square)](https://travis-ci.org/mts/multi-tag)
+
+> React UI for entering multiple tags as input
+
 ## Approach
 Development approach is to build big and complex components by first breaking them down into smaller and less complex components to promote `modularity`, `reusability`, `scalability`, `maintainability` via `Component Driven Design (CDD)` and `Atomic Design Patterns`. Following this approach, smaller pieces of the whole are built first as `atoms` and `molecules` implemented as React components to together form `organisms` and `templates`.
 
@@ -269,3 +273,6 @@ Sample usage is as follows:
 ## License
 
 [MIT](./LICENSE) &copy; [MTS](https://github.com/mts)
+
+[multi-tag]: https://github.com/mts/multi-tag
+[react]: https://github.com/facebook/react
