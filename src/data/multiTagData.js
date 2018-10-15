@@ -1,17 +1,17 @@
 // sample data for the multi tag app
 
 export const telephones = {
-    "title": "Telefoonnummers",
-    "description": "€ 0.99 per sms-bericht. Beperkt tot 3 telefoonnummers."
+    "title": "Telephone numbers",
+    "description": "€ 0.99 per sms-message. Limited to 3 telephone numbers."
 };
 
 export const intro = {
-    "title": "Uitbetalingen",
-    "description": "Bij elke uitbetaling van je tegoeden zul je een notificatie ontvangen."
+    "title": "Payments",
+    "description": "You will receive a notification with every payment of your credits."
 };
 
 export const emails = {
-    "title": "E-mailadressen",
+    "title": "E-mail addresses",
     "items":[
         {
            "id":0,
