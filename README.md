@@ -71,7 +71,7 @@ Development approach is to build big and complex components by first breaking th
 Builds the app into `build` folder and Storybook into .storybook-static folder as static websites.<br>
 
 - `npm run prebuild`
-Removesbuild and .storybook-static folders.<br>
+Removes build and .storybook-static folders.<br>
 
 - `npm run start-app`
 Runs the app in the development mode.<br>
@@ -87,7 +87,10 @@ Runs Storybook and shows all available components and their stories.
 Open [http://localhost:3003](http://localhost:3003) to view it in the browser.
 
 - `npm run build-storybook`
-Export Storybook as a static website into `storybook-static` folder.<br>
+Export Storybook as a static website into `.storybook-static` folder.<br>
+
+- `npm run deploy-storybook`
+`Deploy static website in the .storybook-static` folder to GitHub pages.<br>
 
 - `npm test`
 Launches the test runner in the interactive watch mode.
