@@ -270,6 +270,7 @@ Sample usage is as follows:
     telephones={telephones}
   />
 ```
+
 ## License
 
 [MIT](./LICENSE) &copy; [MTS](https://github.com/mts)
